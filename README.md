@@ -2,6 +2,8 @@
 
 Convert CBM image files to BMP format with the CBM-2-BMP program! Extract image data from CBM files, view CBM/BMP information, and easily convert CBM images to BMP.
 
+You can also find more information about CBM files here: [file.org](https://file.org/extension/cbm)
+
 ### Table of Contents
 
 - [Installation & Setup](#installation--setup)
