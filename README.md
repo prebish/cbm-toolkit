@@ -9,7 +9,7 @@ Convert CBM image files to BMP format with the CBM-2-BMP program! Extract image 
   2. [Move to Program Directory](#2-move-to-program-directory)
 - [Usage](#usage)
   1. [Program Startup](#program-startup)
-  2. [Conversion Options](#conversion-options)
+  2. [Conversion Options](#toolkit-features)
 - [License](#license)
 
 ## Installation & Setup
@@ -46,7 +46,7 @@ After compiling, you can start using the program by running the following comman
 
 You can use the sample files included in the `samples` directory for testing.
 
-### Conversion Options
+### Toolkit Features
 
 You can run the program with the following commands:
 
