@@ -2,7 +2,7 @@
 
 Convert CBM image files to BMP format with the CBM-2-BMP program! Extract image data from CBM files, view CBM/BMP information, and easily convert CBM images to BMP.
 
-## Table of Contents
+### Table of Contents
 
 - [Installation & Setup](#installation--setup)
   1. [Clone the Repository](#1-clone-the-repository)
@@ -19,13 +19,13 @@ Make sure you have GCC installed to compile the program. You can install it via 
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/prebish/cbm-2-bmp.git
+git clone https://github.com/prebish/cbm-toolkit.git
 ```
 
 ### 2. Move to Program Directory
 
 ```bash
-cd ./cbm-2-bmp
+cd ./cbm-toolkit
 ```
 
 ## Usage
@@ -41,7 +41,7 @@ make
 After compiling, you can start using the program by running the following command:
 
 ```bash
-./cbm2bmp --convert <input_file.cbm> <output_file.bmp>
+./cbmtk --convert <input_file.cbm> <output_file.bmp>
 ```
 
 You can use the sample files included in the `samples` directory for testing.
@@ -50,24 +50,23 @@ You can use the sample files included in the `samples` directory for testing.
 
 You can run the program with the following commands:
 
-- **Convert CBM to BMP:**
+**Convert CBM to BMP:**
 
   ```bash
-  ./cbm2bmp --convert samples/input.cbm output.bmp
+  ./cbmtk --convert samples/input.cbm output.bmp
   ```
 
-- **Get CBM File Info:**
+**Get CBM File Info:**
 
   ```bash
-  ./cbm2bmp --info samples/input.cbm
+  ./cbmtk --info samples/input.cbm
   ```
 
-- **Get BMP File Info:**
+**Get BMP File Info:**
 
   ```bash
-  ./cbm2bmp --bmp-info output.bmp
+  ./cbmtk --bmp-info output.bmp
   ```
 
 ## License
-
 This project is licensed under the MIT License - see the `LICENSE` file for details.
